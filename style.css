@@ -79,3 +79,13 @@ table th{
 th,td{
     padding: 5px;
 }
+@media (min-width:300px) and (max-width: 650px) {
+    table{
+        width: 30%;
+        text-align: center;
+        margin: auto;
+    }
+    th,td{
+        padding: 1px;
+    }
+}
