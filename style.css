@@ -80,10 +80,17 @@ th,td{
     padding: 5px;
 }
 @media (min-width:300px) and (max-width: 650px) {
-    table{
-        width: 30%;
-        text-align: center;
+    .crud{
+        width: 50%;
+        align-items: center;
         margin: auto;
+    }
+    table,tbody{
+        width: 50%;
+        text-align: left;
+        align-items: left;
+        margin: auto ;
+        font-size: smaller;
     }
     th,td{
         padding: 1px;
